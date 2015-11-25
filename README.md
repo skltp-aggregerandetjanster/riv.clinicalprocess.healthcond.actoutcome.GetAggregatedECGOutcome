@@ -1,0 +1,2 @@
+# riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome
+GetAggregeradECGOutcome
