@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project activeEnvironment="Default" name="GetAggregatedECGOutcome" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" id="515816ec-b379-4904-87f8-37b81af788c3" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="GetECGOutcomeResponderBinding" type="wsdl" bindingName="{urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcome:3:rivtabp21}GetECGOutcomeResponderBinding" soapVersion="1_1" anonymous="optional" definition="file:/Users/torbjorncla/Jobb/npo/aggtjanster/ECGOutcome/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/TD_CLINICALPROCESS_HEALTHCOND_ACTOUTCOME_3.0_RC1/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl" id="ef356b21-374e-49b3-8b7a-46d64466bb8e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/Users/torbjorncla/Jobb/npo/aggtjanster/ECGOutcome/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/TD_CLINICALPROCESS_HEALTHCOND_ACTOUTCOME_3.0_RC1/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl"><con:part><con:url>file:/Users/torbjorncla/Jobb/npo/aggtjanster/ECGOutcome/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/TD_CLINICALPROCESS_HEALTHCOND_ACTOUTCOME_3.0_RC1/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+<con:soapui-project activeEnvironment="Default" name="GetAggregatedECGOutcome" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" id="515816ec-b379-4904-87f8-37b81af788c3" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="GetECGOutcomeResponderBinding" type="wsdl" bindingName="{urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcome:3:rivtabp21}GetECGOutcomeResponderBinding" soapVersion="1_1" anonymous="optional" definition="file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl" id="ef356b21-374e-49b3-8b7a-46d64466bb8e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl"><con:part><con:url>file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -67,7 +67,7 @@
       <soap:address location="http://tempuri.org"/>
     </wsdl:port>
   </wsdl:service>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>file:/Users/torbjorncla/Jobb/npo/aggtjanster/ECGOutcome/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/TD_CLINICALPROCESS_HEALTHCOND_ACTOUTCOME_3.0_RC1/interactions/GetECGOutcomeInteraction/GetECGOutcomeResponder_3.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeResponder_3.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -105,7 +105,7 @@
       <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
-</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:/Users/torbjorncla/Jobb/npo/aggtjanster/ECGOutcome/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/TD_CLINICALPROCESS_HEALTHCOND_ACTOUTCOME_3.0_RC1/core_components/clinicalprocess_healthcond_actoutcome_3.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/core_components/clinicalprocess_healthcond_actoutcome_3.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -903,7 +903,7 @@
       <xs:enumeration value="1.2.752.116.1.1.1.1.3"/>
     </xs:restriction>
   </xs:simpleType>
-</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:/Users/torbjorncla/Jobb/npo/aggtjanster/ECGOutcome/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/TD_CLINICALPROCESS_HEALTHCOND_ACTOUTCOME_3.0_RC1/core_components/clinicalprocess_healthcond_actoutcome_enum_3.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/core_components/clinicalprocess_healthcond_actoutcome_enum_3.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -1199,7 +1199,7 @@
       <xs:enumeration value="TECHNICAL_ERROR"/>
     </xs:restriction>
   </xs:simpleType>
-</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:/Users/torbjorncla/Jobb/npo/aggtjanster/ECGOutcome/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/TD_CLINICALPROCESS_HEALTHCOND_ACTOUTCOME_3.0_RC1/core_components/itintegration_registry_1.0.xsd</con:url><con:content><![CDATA[<xs:schema targetNamespace="urn:riv:itintegration:registry:1" elementFormDefault="qualified" version="1.0" xmlns="urn:riv:itintegration:registry:1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/core_components/itintegration_registry_1.0.xsd</con:url><con:content><![CDATA[<xs:schema targetNamespace="urn:riv:itintegration:registry:1" elementFormDefault="qualified" version="1.0" xmlns="urn:riv:itintegration:registry:1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>Beskrivning: 	Grundläggande informationsobjekt för domänen itintegration:registry (adressering av tjänster)
 
@@ -1585,14 +1585,244 @@
          <urn1:logicalAddress>5565594230</urn1:logicalAddress>
       </urn1:PingForConfiguration>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:itintegration:monitoring:PingForConfigurationResponder:1:PingForConfiguration"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite name="skltp-box, dev" id="076f5fdb-f3f2-4a0b-a358-f70c468e7468"><con:description>http://ine-dit-app02.sth.basefarm.net:9014/GetAggregatedECGOutcome/service/v3
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:itintegration:monitoring:PingForConfigurationResponder:1:PingForConfiguration"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="FindContentResponderBinding" type="wsdl" bindingName="{urn:riv:itintegration:engagementindex:FindContent:1:rivtabp21}FindContentResponderBinding" soapVersion="1_1" anonymous="optional" definition="https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?wsdl" id="53df29ba-089d-41e9-b714-ece08ace0a33" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?wsdl"><con:part><con:url>https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="FindContentInteraction" targetNamespace="urn:riv:itintegration:engagementindex:FindContent:1:rivtabp21" xmlns:itr="urn:riv:itintegration:registry:1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tjsi="urn:riv:itintegration:engagementindex:FindContentInitiator:1" xmlns:tjsr="urn:riv:itintegration:engagementindex:FindContentResponder:1" xmlns:tns="urn:riv:itintegration:engagementindex:FindContent:1:rivtabp21" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema targetNamespace="urn:riv:itintegration:engagementindex:FindContent:1:rivtabp21">
+      <xs:import namespace="urn:riv:itintegration:engagementindex:FindContentResponder:1" schemaLocation="https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?xsd=FindContentResponder_1.0.xsd"/>
+      <xs:import namespace="urn:riv:itintegration:registry:1" schemaLocation="https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?xsd=../../core_components/itintegration_registry_1.0.xsd"/>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="FindContentResponse">
+    <wsdl:part element="tjsr:FindContentResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="FindContentRequest">
+    <wsdl:part element="itr:LogicalAddress" name="LogicalAddress">
+      <wsdl:documentation>The organisation number of the organization owning the targeted engagement index</wsdl:documentation>
+    </wsdl:part>
+    <wsdl:part element="tjsr:FindContent" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="FindContentResponderInterface">
+    <wsdl:operation name="FindContent">
+      <wsdl:input message="tns:FindContentRequest"></wsdl:input>
+      <wsdl:output message="tns:FindContentResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FindContentResponderBinding" type="tns:FindContentResponderInterface">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="FindContent">
+      <soap:operation soapAction="urn:riv:itintegration:engagementindex:FindContentResponder:1:FindContent" style="document"/>
+      <wsdl:input>
+        <soap:header message="tns:FindContentRequest" part="LogicalAddress" use="literal"></soap:header>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FindContentResponderService">
+    <wsdl:port binding="tns:FindContentResponderBinding" name="FindContentResponderPort">
+      <soap:address location="https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21"/>
+    </wsdl:port>
+  </wsdl:service>
+  <xs:annotation>
+    <xs:documentation>Tjänsteinteraktionens namn: FindContentInteraction
+			 Beskrivning: 
+			   Service for searching the content of an engagement index
+			 Revisioner: 
+			 Tjänstedomän: itintegration:engagementindex
+			 Tjänsteinteraktionstyp: Fråga-Svar
+			 WS-profil: RIVTABP21
+			 Förvaltas av: Sveriges Kommuner och Landsting</xs:documentation>
+  </xs:annotation>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?xsd=FindContentResponder_1.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements. See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License. You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied. See the License for the
+ specific language governing permissions and limitations
+ under the License.-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:riv:itintegration:engagementindex:FindContentResponder:1" version="1.0" xmlns:core="urn:riv:itintegration:engagementindex:1" xmlns:tns="urn:riv:itintegration:engagementindex:FindContentResponder:1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="urn:riv:itintegration:engagementindex:1" schemaLocation="https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?xsd=../../core_components/itintegration_engagementindex_1.0.xsd"/>
+  <xs:element name="FindContent" type="tns:FindContentType"/>
+  <xs:element name="FindContentResponse" type="tns:FindContentResponseType"/>
+  <xs:complexType name="FindContentType">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="registeredResidentIdentification" type="core:RegisteredResidentIdentificationType"/>
+      <xs:element minOccurs="1" name="serviceDomain" type="xs:anyURI"/>
+      <xs:element minOccurs="0" name="categorization" type="xs:string"/>
+      <xs:element minOccurs="0" name="logicalAddress" type="xs:string"/>
+      <xs:element minOccurs="0" name="businessObjectInstanceIdentifier" type="xs:string"/>
+      <xs:element minOccurs="0" name="clinicalProcessInterestId" type="core:ClinicalProcessInterestIdType"/>
+      <xs:element minOccurs="0" name="mostRecentContent" type="core:TS"/>
+      <xs:element minOccurs="0" name="sourceSystem" type="core:HsaIdType"/>
+      <xs:element minOccurs="0" name="dataController" type="core:OrgNoType"/>
+      <xs:element minOccurs="0" name="owner" type="core:HsaIdType"/>
+      <xs:any maxOccurs="unbounded" minOccurs="0" namespace="##other" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FindContentResponseType">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="engagement" type="core:EngagementType"/>
+      <xs:any maxOccurs="unbounded" minOccurs="0" namespace="##other" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?xsd=../../core_components/itintegration_engagementindex_1.0.xsd</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements. See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License. You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied. See the License for the
+ specific language governing permissions and limitations
+ under the License.-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:riv:itintegration:engagementindex:1" version="1.0" xmlns:tns="urn:riv:itintegration:engagementindex:1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="EngagementTransactionType">
+    <xs:sequence>
+      <xs:element name="deleteFlag" type="xs:boolean"/>
+      <xs:element name="engagement" type="tns:EngagementType"/>
+      <xs:any maxOccurs="unbounded" minOccurs="0" namespace="##other" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EngagementType">
+    <xs:sequence>
+      <xs:element name="registeredResidentIdentification" type="tns:RegisteredResidentIdentificationType"/>
+      <xs:element name="serviceDomain" type="xs:anyURI"/>
+      <xs:element name="categorization" type="xs:string"/>
+      <xs:element name="logicalAddress" type="xs:string"/>
+      <xs:element name="businessObjectInstanceIdentifier" type="xs:string"/>
+      <xs:element minOccurs="1" name="clinicalProcessInterestId" type="tns:ClinicalProcessInterestIdType"/>
+      <xs:element minOccurs="0" name="mostRecentContent" type="tns:TS"/>
+      <xs:element name="sourceSystem" type="tns:HsaIdType"/>
+      <xs:element minOccurs="0" name="creationTime" type="tns:TS"/>
+      <xs:element minOccurs="0" name="updateTime" type="tns:TS"/>
+      <xs:element name="dataController" type="tns:OrgNoType"/>
+      <xs:element minOccurs="0" name="owner" type="tns:HsaIdType"/>
+      <xs:any maxOccurs="unbounded" minOccurs="0" namespace="##other" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="HsaIdType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:simpleType name="OrgNoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:simpleType name="ClinicalProcessInterestIdType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:simpleType name="RegisteredResidentIdentificationType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^[0-9]{8}[0-9pPtTfF][0-9]{3}$"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TS">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[1-9]{1}[0-9]{3}(0[1-9]{1}|1[0-2]{1})([0-2]{1}[0-9]{1}|3[0-1]{1})([0-1]{1}[0-9]{1}|2[0-3]{1})[0-5]{1}[0-9]{1}[0-5]{1}[0-9]{1}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DT">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[1-9]{1}[0-9]{3}(0[1-9]{1}|1[0-2]{1})([0-2]{1}[0-9]{1}|3[0-1]{1})"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ResultCodeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="OK"/>
+      <xs:enumeration value="ERROR"/>
+      <xs:enumeration value="INFO"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21?xsd=../../core_components/itintegration_registry_1.0.xsd</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="urn:riv:itintegration:registry:1" version="1.0" xmlns="urn:riv:itintegration:registry:1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>Beskrivning: 	Grundl��ggande informationsobjekt f��r dom��nen itintegration:registry (adressering av tj��nster)
+			
+			Revisionshistorik: 2011-06-27 Mats Ekhammar, Callista Enterprise AB
+				Added ServiceContractType
+			
+			Datum:			2011-05-04
+			Beskrivning:	Initial version
+			F��rfattare:		marcus.krantz@callistaenterprise.se</xs:documentation>
+  </xs:annotation>
+  <xs:element name="LogicalAddress" type="LogicalAddressType"/>
+  <xs:element name="ServiceContract" type="ServiceContractType"/>
+  <xs:simpleType name="LogicalAddressType">
+    <xs:annotation>
+      <xs:documentation>Defines the type for logical address according to national reference architecture.
+				Superseeds wsa:To as type for logical address header in RIVTA 2.1.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:complexType name="ServiceContractType">
+    <xs:annotation>
+      <xs:documentation>Type which describes a service contract. Used in interaction GetSupportedServiceContracts.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ServiceContractNamespace" type="xs:anyURI"/>
+      <xs:any maxOccurs="unbounded" minOccurs="0" namespace="##other" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21</con:endpoint><con:endpoint>https://ine-sit-app06.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21</con:endpoint><con:endpoint>https://ine-sit-app07.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21</con:endpoint><con:endpoint>https://ine-sit-intern-vip-vp.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21</con:endpoint><con:endpoint>https://qa.esb.ntjp.se:443/vp/FindContent/1/rivtabp21</con:endpoint><con:endpoint>https://qa.esb.ntjp.sjunet.org:20000/vp/FindContent/1/rivtabp21</con:endpoint></con:endpoints><con:operation isOneWay="false" action="urn:riv:itintegration:engagementindex:FindContentResponder:1:FindContent" name="FindContent" bindingOperationName="FindContent" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="8124bdd1-cfbf-4342-9f16-410c7d1dc514"><con:settings/><con:call name="33.33.33.33" id="566f5362-5491-4409-ab20-6314e1594168"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://33.33.33.33:8082/engagemangsindex/service/engagemangsindex-teststub/v1</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:itintegration:engagementindex:FindContentResponder:1">
+   <soapenv:Header>
+      <urn:LogicalAddress>5565594230</urn:LogicalAddress>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:FindContent>
+         <urn1:registeredResidentIdentification>121212121212</urn1:registeredResidentIdentification>
+         <urn1:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn1:serviceDomain>
+         <urn1:categorization>und-ekg-ure</urn1:categorization>
+      </urn1:FindContent>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:itintegration:engagementindex:FindContentResponder:1:FindContent"/><con:wsrmConfig version="1.2"/></con:call><con:call id="a2297909-8630-4083-b547-5655a5743ba2" name="Request 2"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://ine-sit-app05.sth.basefarm.net:20000/vp/FindContent/1/rivtabp21</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:itintegration:engagementindex:FindContentResponder:1">
+   <soapenv:Header>
+      <urn:LogicalAddress>?</urn:LogicalAddress>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:FindContent>
+         <urn1:registeredResidentIdentification>?</urn1:registeredResidentIdentification>
+         <urn1:serviceDomain>?</urn1:serviceDomain>
+         <!--Optional:-->
+         <urn1:categorization>?</urn1:categorization>
+         <!--Optional:-->
+         <urn1:logicalAddress>?</urn1:logicalAddress>
+         <!--Optional:-->
+         <urn1:businessObjectInstanceIdentifier>?</urn1:businessObjectInstanceIdentifier>
+         <!--Optional:-->
+         <urn1:clinicalProcessInterestId>?</urn1:clinicalProcessInterestId>
+         <!--Optional:-->
+         <urn1:mostRecentContent>?</urn1:mostRecentContent>
+         <!--Optional:-->
+         <urn1:sourceSystem>?</urn1:sourceSystem>
+         <!--Optional:-->
+         <urn1:dataController>?</urn1:dataController>
+         <!--Optional:-->
+         <urn1:owner>?</urn1:owner>
+         <!--You may enter ANY elements at this point-->
+      </urn1:FindContent>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:itintegration:engagementindex:FindContentResponder:1:FindContent"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite name="skltp-box, dev" id="076f5fdb-f3f2-4a0b-a358-f70c468e7468"><con:description>http://ine-dit-app02.sth.basefarm.net:9014/GetAggregatedECGOutcome/service/v3
 https://test.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/rivtabp21
 https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/rivtabp21
 </con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC1: Hämta data från bakomliggande producenter" searchProperties="true" id="89dfba2b-480c-4c11-ad7c-6df172644efd"><con:settings/><con:testStep type="request" name="GetECGOutcome - 121212121212 - Tolvan Tolvansson" id="0c990513-9db7-4a19-bc2a-0ac0d3504138"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 121212121212 - Tolvan Tolvansson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="4aa647f3-a657-4546-864f-49096b8701f9"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-vp-sender-id" value="test"/>
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-skltp-correlation-id" value="x-skltp-correlation-id-test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8081/GetAggregatedECGOutcome/service/v3</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1602,32 +1832,14 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
             <urn2:id>121212121212</urn2:id>
             <urn2:type>1.2.752.129.2.1.3.1</urn2:type>
          </urn1:patientId>
-         <urn1:datePeriod>
-            <urn2:start>20130301</urn2:start>
-            <urn2:end>20130401</urn2:end>
-         </urn1:datePeriod>
       </urn1:GetECGOutcome>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="3e9abdc5-78c6-41b2-83f8-84eeee2bc171"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="4192fa6d-0cff-4022-b54b-acac885fa0f1"/><con:assertion type="XPath Match" name="XPath Match" id="6db3b186-312c-4dc0-9b80-7bbb4323f255"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="6674678d-7538-4e1c-896f-2ef859c5f051"><con:configuration><path>count(//*:ecgOutcome)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="GetECGOutcome - 121212121212 - Tolvan Tolvansson Systemaddressering" id="e446f2ef-2478-49eb-8dbf-0565a6b99aa2"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 121212121212 - Tolvan Tolvansson Systemaddressering" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="10f10f90-3090-47f4-a82f-0950226cf2af"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+</soapenv:Envelope>
+]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="3e9abdc5-78c6-41b2-83f8-84eeee2bc171"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="4192fa6d-0cff-4022-b54b-acac885fa0f1"/><con:assertion type="XPath Match" name="XPath Match" id="6db3b186-312c-4dc0-9b80-7bbb4323f255"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="6674678d-7538-4e1c-896f-2ef859c5f051"><con:configuration><path>count(//*:ecgOutcome)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC2: Testperson saknar engagemang" searchProperties="true" id="c8b9a8e8-1fb5-4a42-abd7-96fe4b519b4a"><con:settings/><con:testStep type="request" name="GetECGOutcome - 188803099368 - Agda Andersson" id="6e7807e8-6395-4193-b8ff-199a81c6103d"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 188803099368 - Agda Andersson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="dde72768-f93c-4529-9f02-d6df9d506125"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-vp-sender-id" value="test"/>
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
-   <soapenv:Header>
-      <urn:LogicalAddress>5565594230</urn:LogicalAddress>
-   </soapenv:Header>
-   <soapenv:Body>
-      <urn1:GetECGOutcome>
-         <urn1:patientId>
-            <urn2:id>121212121212</urn2:id>
-            <urn2:type>1.2.752.129.2.1.3.1</urn2:type>
-         </urn1:patientId>
-         <urn1:sourceSystemHSAId>HSA-ID-5</urn1:sourceSystemHSAId>
-      </urn1:GetECGOutcome>
-   </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="d47b6ce5-2bc0-4f06-b8df-022175bc4b13"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="edc73d00-bfdd-475b-92c2-556d9d758ddb"/><con:assertion type="XPath Match" name="XPath Match" id="7a4fefaf-a992-4e88-bc16-2d8ff85e6066"><con:configuration><path>count(//*:ecgOutcome)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Response" id="c679456e-102b-43aa-9f21-0ea1402e8438"><con:configuration><path>count(//*:ProcessingStatusList)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC2: Testperson saknar engagemang" searchProperties="true" id="c8b9a8e8-1fb5-4a42-abd7-96fe4b519b4a"><con:settings/><con:testStep type="request" name="GetECGOutcome - 188803099368 - Agda Andersson" id="6e7807e8-6395-4193-b8ff-199a81c6103d"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 188803099368 - Agda Andersson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="dde72768-f93c-4529-9f02-d6df9d506125"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  &lt;con:entry key="x-vp-sender-id" value="test"/>
-  &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+  &lt;con:entry key="x-skltp-correlation-id" value="123"/>
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1640,9 +1852,10 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
       </urn1:GetECGOutcome>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="3d131d6f-1c5c-4a0b-ac42-28808de3921c"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="f6d17eff-db9b-4220-8c06-977cf08e2ca6"/><con:assertion type="XPath Match" name="XPath Match" id="b433a9be-b0ca-4796-84b0-83844fe9d01e"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="0cd2ada2-a3db-4abd-b69d-674970118a4a"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC3: Inget svar från ett system, endast engagemang i ett system" searchProperties="true" id="d37596e5-4dbe-44a9-8aa4-9c063c8912da"><con:settings/><con:testStep type="request" name="194911172296 - Sven Sturesson" id="ce3c026d-43ef-46bf-8371-43c1997830c8"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="194911172296 - Sven Sturesson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="4a8ea387-cd89-465f-bbf4-806c653eeef2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+  &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
+  &lt;con:entry key="x-skltp-correlation-id" value="test"/>
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1657,7 +1870,8 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="a5f70ee2-c166-40b9-a1c6-8fce09be4012"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="242e7cda-cd2f-49a1-b2b9-2b9128259d65"/><con:assertion type="XPath Match" name="XPath Match" id="072cbcae-773f-4723-8f30-d89bd2d70bf6"><con:configuration><path>count(//*:ecgOutcome)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Response" id="64818eed-ed70-4307-9243-99e904b41e03"><con:configuration><path>count(//*:ProcessingStatusList)</path><content>2</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC4: Inget svar från ett system, engagemang i flera system, timeout från ett system" searchProperties="true" id="6028396d-3998-463e-a3bc-9a9d3cea531f"><con:settings/><con:testStep type="request" name="198611062384 - Ulla Alm" id="40e6799f-ee6d-48f4-a70b-433c976f24a1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="198611062384 - Ulla Alm" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="6b6d37fe-ffe6-42e9-a7f6-b19ac383a977"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+  &lt;con:entry key="x-skltp-correlation-id" value="123"/>
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1672,7 +1886,8 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="b1481028-b7ed-49c1-b6d4-c0a84905b1d5"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="3c8d4327-5a92-447f-9d74-1de3bf2ab5aa"/><con:assertion type="XPath Match" name="XPath Match" id="7a26e93c-83b4-414c-8a9a-7d73039af080"><con:configuration><path>count(//*:ecgOutcome)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Response" id="a44a3e0e-c8ce-4438-bd6b-4aeb9d84d4c7"><con:configuration><path>count(//*:ProcessingStatusList)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Error" id="e2491a32-5590-4820-be76-1b4f6c501110"><con:configuration><path>count(//*:lastUnsuccessfulSynchError)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC5: Error från system (exception)" searchProperties="true" id="65713206-b87f-48cc-a53d-7ee0712253a1"><con:settings/><con:testStep type="request" name="192011189228 - Gunbritt Boden" id="2d5912e2-6340-49bb-8046-c3eff2070345"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="192011189228 - Gunbritt Boden" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="393a9558-66b0-40c3-a140-b3964a914711"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+  &lt;con:entry key="x-skltp-correlation-id" value="123"/>
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1684,7 +1899,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
          </urn1:patientId>
       </urn1:GetECGOutcome>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="614c9947-ba4d-44b3-b4c3-de2d44dfe7d9"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="6d8c7785-1162-4ba2-88a5-39084e0a2e0e"/><con:assertion type="XPath Match" name="XPath Match" id="6d44bcea-1ccd-4c89-9c70-30893e9d2c91"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="59a4a775-dc86-47c1-b1ff-279e1323fc48"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Error" id="50935db4-3d44-4b25-8741-3b0c5f854de5"><con:configuration><path>count(//*:lastUnsuccessfulSynchError)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>agg-env</con:name><con:value>http://ine-dit-app02.sth.basefarm.net:9014/GetAggregatedECGOutcome/service/v3</con:value></con:property><con:property><con:name>agg-env-dev</con:name><con:value>http://ine-dit-app02.sth.basefarm.net:9014/GetAggregatedECGOutcome/service/v3</con:value></con:property><con:property><con:name>agg-env-skltp-box</con:name><con:value>http://33.33.33.33:8081/GetAggregatedECGOutcome/service/v3</con:value></con:property></con:properties></con:testSuite><con:testSuite name="Setup EI (test, qa)" id="755ce868-c7bf-4039-83e0-ea6f703f9858"><con:description>https://test.esb.ntjp.se:443/vp/Update/1/rivtabp21
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="614c9947-ba4d-44b3-b4c3-de2d44dfe7d9"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="6d8c7785-1162-4ba2-88a5-39084e0a2e0e"/><con:assertion type="XPath Match" name="XPath Match" id="6d44bcea-1ccd-4c89-9c70-30893e9d2c91"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="59a4a775-dc86-47c1-b1ff-279e1323fc48"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Error" id="50935db4-3d44-4b25-8741-3b0c5f854de5"><con:configuration><path>count(//*:lastUnsuccessfulSynchError)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>agg-env</con:name><con:value>http://33.33.33.33:8081/GetAggregatedECGOutcome/service/v1</con:value></con:property><con:property><con:name>agg-env-dev</con:name><con:value>http://ine-dit-app02.sth.basefarm.net:9014/GetAggregatedECGOutcome/service/v1</con:value></con:property><con:property><con:name>agg-env-skltp-box</con:name><con:value>http://33.33.33.33:8081/GetAggregatedECGOutcome/service/v1</con:value></con:property></con:properties></con:testSuite><con:testSuite name="Setup EI (test, qa)" id="755ce868-c7bf-4039-83e0-ea6f703f9858"><con:description>https://test.esb.ntjp.se:443/vp/Update/1/rivtabp21
 https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
 </con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Setup engagements in EI" searchProperties="true" id="e356f0f3-eb01-42d7-882b-5c00eb2f6e2a"><con:settings/><con:testStep type="request" name="EI update - 188803099368 - Agda Andersson" id="dcde4461-f249-45ef-99ae-8b8f0205b99c"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UpdateResponderBinding</con:interface><con:operation>Update</con:operation><con:request name="EI update - 188803099368 - Agda Andersson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="34f50eea-eb98-4a2d-916a-7e5ca461cfa2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
@@ -1891,7 +2106,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC1: Hämta data från bakomliggande producenter" searchProperties="true" id="35860d47-9058-4498-b5cf-84d7b1607522"><con:settings/><con:testStep type="request" name="GetECGOutcome - 121212121212 - Tolvan Tolvansson" id="89a699fd-bdee-4613-aa6d-d2f25826f83e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 121212121212 - Tolvan Tolvansson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="42855658-d831-40d0-84cf-352e53daabf5"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1910,7 +2125,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="95584e4e-b618-4150-8188-e02c25aa6636"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="4425e712-0f3f-4858-b655-dde5a1534fe8"/><con:assertion type="XPath Match" name="XPath Match" id="4b072cf2-3985-4475-ab46-00a8e4911193"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="ce1c088f-47ea-408a-b8a5-c85e0f67266f"><con:configuration><path>count(//*:ecgOutcome)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="GetECGOutcome - 121212121212 - Tolvan Tolvansson Systemaddressering" id="6805ab76-c587-4516-aa10-2535465fe65d"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 121212121212 - Tolvan Tolvansson Systemaddressering" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="734e9ae7-3f2d-4ba7-b366-d64584a456dc"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-vp-sender-id" value="test"/>
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1926,7 +2141,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="faaf7ad0-b879-4694-9575-b3221733ed7c"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="1d88c1ae-b273-4b77-ab5f-3bb0095bdb41"/><con:assertion type="XPath Match" name="XPath Match" id="f7c87854-3771-4da5-93bf-07223546500a"><con:configuration><path>count(//*:ecgOutcome)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Response" id="33dd5749-d2d8-4eea-8e17-33efa79b5de0"><con:configuration><path>count(//*:ProcessingStatusList)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC2: Testperson saknar egagemang" searchProperties="true" id="50142e2b-0cb0-47ac-be14-faad43c04b34"><con:settings/><con:testStep type="request" name="GetECGOutcome - 188803099368 - Agda Andersson" id="56d1d78b-380e-49f6-92c1-aa4a10c94aeb"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 188803099368 - Agda Andersson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="0a2df559-d589-4b0a-b29e-00545a67329f"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-vp-sender-id" value="test"/>
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1941,7 +2156,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="47e4e852-07e8-40a5-9400-5fd5dba91830"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="e43387a8-6d13-4cdf-bdda-55a644d9da48"/><con:assertion type="XPath Match" name="XPath Match" id="eba43845-8649-4917-8afd-a7a6c3c1698d"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="d56e75c2-dad9-451e-91cc-b87c9d44d74d"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC3: Inget svar från ett system, endast engagmenag i ett system" searchProperties="true" id="0d7b97c8-485e-4692-b281-4ad4af209632"><con:settings/><con:testStep type="request" name="194911172296 - Sven Sturesson" id="3a6aac1c-a49d-49ff-8e16-e94bde8e9a16"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="194911172296 - Sven Sturesson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="38eca172-0ef0-47ff-89b5-582126aebdb6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1956,7 +2171,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="38298cdc-bf51-43ad-aa2d-ab62e1cad7d8"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="3c7fc453-d6e2-4d1f-aab4-231223b9ecd0"/><con:assertion type="XPath Match" name="XPath Match" id="cae2c27b-cebf-4ce0-bcac-525ce3840969"><con:configuration><path>count(//*:ecgOutcome)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Response" id="abe7796f-973b-4205-9632-b630f1c2d393"><con:configuration><path>count(//*:ProcessingStatusList)</path><content>2</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC4: Inget svar från ett system, engagmeang i flera system, timeout från ett system" searchProperties="true" id="37704714-3e95-4c5e-a2d2-c85daf90fb27"><con:settings/><con:testStep type="request" name="198611062384 - Ulla Alm" id="4f7362ca-c3ae-465c-b06d-ecf8665adbe6"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="198611062384 - Ulla Alm" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="e1906457-3186-49c7-8ffe-975f7fbf1e71"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1971,7 +2186,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="5910d675-dd7a-49ca-ac55-40ad42f494c1"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="ff95e3b7-53f1-4beb-8179-5f9f64be6277"/><con:assertion type="XPath Match" name="XPath Match" id="fd0de754-224c-42bb-920a-781c8c069f20"><con:configuration><path>count(//*:ecgOutcome)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Response" id="25f734d6-654a-4cab-a764-2d9592054a7c"><con:configuration><path>count(//*:ProcessingStatusList)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Error" id="4301b885-355a-4f6b-97c3-8a133c24f79e"><con:configuration><path>count(//*:lastUnsuccessfulSynchError)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC5: Error från system (exception)" searchProperties="true" id="932ecc21-0373-4c6f-b379-c08cfcff369e"><con:settings/><con:testStep type="request" name="192011189228 - Gunbritt Boden" id="563bd720-dd70-471f-abe8-c862dc56bf2e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="192011189228 - Gunbritt Boden" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="cda7b5aa-f5b2-4485-9c94-9242f2395952"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -1986,7 +2201,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="c37bdb0d-fb6e-4c96-9181-53fa1e919db6"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="f21ad808-cc8e-49f2-a8ee-4424d3b16701"/><con:assertion type="XPath Match" name="XPath Match" id="edac14f6-a308-4554-a8b3-d7b51a49b52a"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="2cd5a9aa-7b27-4b7a-b394-f38661666c92"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Error" id="cf779d50-d67d-4f11-bb58-d5382b97b9c9"><con:configuration><path>count(//*:lastUnsuccessfulSynchError)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC6: Behörighet saknas i TAK" searchProperties="true" id="ed2beea6-f184-4ae9-af8e-f3430072f00b"><con:settings/><con:testStep type="request" name="194804032094 - Laban Meijer" id="4b4afbea-fa7b-4874-a8cf-5e223db3e146"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="194804032094 - Laban Meijer" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="e4c85ef9-6be2-4e58-a08b-b580dfc248ae"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
