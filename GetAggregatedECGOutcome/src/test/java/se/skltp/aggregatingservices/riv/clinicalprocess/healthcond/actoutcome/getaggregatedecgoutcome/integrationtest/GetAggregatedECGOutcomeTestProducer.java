@@ -11,7 +11,10 @@ import riv.clinicalprocess.healthcond.actoutcome.getecgoutcomeresponder.v1.GetEC
 import riv.clinicalprocess.healthcond.actoutcome.getecgoutcomeresponder.v1.GetECGOutcomeType;
 import se.skltp.agp.test.producer.TestProducerDb;
 
-@WebService(serviceName = "GetRequestStatusResponderService", portName = "GetRequestStatusResponderPort", targetNamespace = "urn:riv:clinicalprocess:healthcond:actoutcome:GetRequestStatus:1:rivtabp21", name = "GetRequestStatusInteraction")
+@WebService(serviceName = "GetECGOutcomeResponderService", 
+               portName = "GetECGOutcomeResponderPort", 
+        targetNamespace = "urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcome:1:rivtabp21", 
+                   name = "GetECGOutcomeInteraction")
 public class GetAggregatedECGOutcomeTestProducer implements GetECGOutcomeResponderInterface {
 
 	private static final Logger log = LoggerFactory.getLogger(GetAggregatedECGOutcomeTestProducer.class);
@@ -26,16 +29,16 @@ public class GetAggregatedECGOutcomeTestProducer implements GetECGOutcomeRespond
 		GetECGOutcomeResponseType response = null;
 		
 		if (request == null) {
-            throw new RuntimeException("GetFunctionalStatusType is null");
+            throw new RuntimeException("GetECGOutcomeType is null");
         }
         if (request.getPatientId() == null) {
-            throw new RuntimeException("GetFunctionalStatusType.getPatientId is null");
+            throw new RuntimeException("GetECGOutcomeType.getPatientId is null");
         }
         if (StringUtils.isBlank(request.getPatientId().getId())) {
-            throw new RuntimeException("GetFunctionalStatusType.patientId.id is blank");
+            throw new RuntimeException("GetECGOutcomeType.patientId.id is blank");
         }
         
-        log.info("### Virtual service for GetFunctionalStatus call the source system with logical address: {} and patientId: {}", 
+        log.info("### Virtual service for GetECGOutcomeType call the source system with logical address: {} and patientId: {}", 
                 logicalAddress, request.getPatientId().getId());
 
         response = (GetECGOutcomeResponseType)testDb.processRequest(logicalAddress, request.getPatientId().getId());
