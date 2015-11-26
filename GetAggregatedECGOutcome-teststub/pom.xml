@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
 DON'T CHANGE THE CONTENT OF THIS COMMENT UNLESS YOU REALLY KNOW WHAT YOU ARE DOING!
 [soi-toolkit.gen.version=2.0.0-M4]
 [soi-toolkit.gen.type=services]
 [soi-toolkit.gen.createDate=2015-11-25T12:55:33.846+01:00]
 [soi-toolkit.gen.artifactId=GetAggregatedECGOutcome]
 -->
-<project 
-	xmlns="http://maven.apache.org/POM/4.0.0" 
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
@@ -35,7 +35,17 @@ DON'T CHANGE THE CONTENT OF THIS COMMENT UNLESS YOU REALLY KNOW WHAT YOU ARE DOI
     	<groupId>se.skltp.aggregatingservices.riv.clinicalprocess.healthcond.actoutcome</groupId>
     	<artifactId>GetAggregatedECGOutcome</artifactId>
     	<version>${project.version}</version>
-    	<classifier>core</classifier>    	
+    	<classifier>core</classifier>
+    </dependency>
+		<dependency>
+      <groupId>se.skltp.agp</groupId>
+      <artifactId>agp-core</artifactId>
+      <version>${skltp.agp.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>se.skltp.agp</groupId>
+      <artifactId>agp-test-common</artifactId>
+      <version>${skltp.agp.version}</version>
     </dependency>
 	</dependencies> 
 
@@ -50,7 +60,7 @@ DON'T CHANGE THE CONTENT OF THIS COMMENT UNLESS YOU REALLY KNOW WHAT YOU ARE DOI
             </resource>
         </resources>
 
-		<plugins>   
+		<plugins>
             <plugin>
                 <!-- Add mule-nature to the eclipse-.project-file -->
                 <artifactId>maven-eclipse-plugin</artifactId>
