@@ -6,3 +6,4 @@ GetAggregatedECGOutcome-teststub/target
 GetAggregatedECGOutcome/target
 GetAggregatedECGOutcome-schemas/target
 target
+*.
