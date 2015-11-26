@@ -1,0 +1,8 @@
+GetAggregatedECGOutcome-schemas/target/generated-sources
+GetAggregatedECGOutcome/target/surefire-reports
+*.class
+GetAggregatedECGOutcome-teststub-1.0.0-RC1-SNAPSHOT.zip
+GetAggregatedECGOutcome-teststub/target
+GetAggregatedECGOutcome/target
+GetAggregatedECGOutcome-schemas/target
+target
