@@ -21,7 +21,6 @@ import se.skltp.agp.service.api.RequestListFactory;
 public class RequestListFactoryImpl implements RequestListFactory {
 
 	private static final Logger log = LoggerFactory.getLogger(RequestListFactoryImpl.class);
-	private static final ThreadSafeSimpleDateFormat df = new ThreadSafeSimpleDateFormat("yyyyMMddhhmmss");
 
 	/**
 	 * Svarsposter från EI som passerat filtreringen grupperas på fältet sourceSystem
@@ -35,18 +34,6 @@ public class RequestListFactoryImpl implements RequestListFactory {
 		FindContentResponseType findContentResponse = (FindContentResponseType) src;
 		
         String sourceSystemHsaId = request.getSourceSystemHSAId();
-		Date reqFrom = parseTs(
-		        (request.getDatePeriod() == null
-		                ||
-		                request.getDatePeriod().getStart() == null)
-		                ?
-		                null : request.getDatePeriod().getStart());
-		 
-		Date reqTo = parseTs(
-		        (request.getDatePeriod() == null
-		                ||
-		                request.getDatePeriod().getEnd() == null)
-		                ? null : request.getDatePeriod().getEnd());
 
         List<EngagementType> engagements = findContentResponse.getEngagement();
         log.debug("Got {} hits in the engagement index", engagements.size());
@@ -55,10 +42,8 @@ public class RequestListFactoryImpl implements RequestListFactory {
             Set<String> sourceSystems = new HashSet<String>(); // set of unique source system hsa ids
             
             for (EngagementType engagement : engagements) {
-    			if (isBetween(reqFrom, reqTo, engagement.getMostRecentContent())) {
-	                if (isPartOf(sourceSystemHsaId, engagement.getLogicalAddress())) {
-	                	sourceSystems.add(engagement.getSourceSystem());
-	                }
+                if (isPartOf(sourceSystemHsaId, engagement.getLogicalAddress())) {
+                	sourceSystems.add(engagement.getSourceSystem());
     			}
             }
             
@@ -77,32 +62,6 @@ public class RequestListFactoryImpl implements RequestListFactory {
         return requestsToBeSentToSourceSystems;
 	}
 
-	Date parseTs(String ts) {
-		try {
-			if (ts == null || ts.length() == 0) {
-				return null;
-			} else {
-				return df.parse(ts);
-			}
-		} catch (ParseException e) {
-			throw new RuntimeException(e);
-		}
-	}
-
-	boolean isBetween(Date from, Date to, String tsStr) {
-		try {
-			if (log.isDebugEnabled()) {
-				log.debug("Is {} between {} and ", new Object[] {tsStr, from, to});
-			}
-			
-			Date ts = df.parse(tsStr);
-			if (from != null && from.after(ts)) return false;
-			if (to != null && to.before(ts)) return false;
-			return true;
-		} catch (ParseException e) {
-			throw new RuntimeException(e);
-		}
-	}
 
     private boolean isPartOf(String careUnitId, String careUnit) {
         log.debug("Check presence of {} in {}", careUnit, careUnitId);
