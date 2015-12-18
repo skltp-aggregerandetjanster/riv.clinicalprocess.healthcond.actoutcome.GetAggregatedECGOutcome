@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project activeEnvironment="Default" name="GetAggregatedECGOutcome" resourceRoot="" soapui-version="5.2.0" abortOnError="false" runType="SEQUENTIAL" id="515816ec-b379-4904-87f8-37b81af788c3" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="GetECGOutcomeResponderBinding" type="wsdl" bindingName="{urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcome:3:rivtabp21}GetECGOutcomeResponderBinding" soapVersion="1_1" anonymous="optional" definition="file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl" id="ef356b21-374e-49b3-8b7a-46d64466bb8e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl"><con:part><con:url>file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+<con:soapui-project activeEnvironment="Default" name="GetAggregatedECGOutcome" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" id="515816ec-b379-4904-87f8-37b81af788c3" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="GetECGOutcomeResponderBinding" type="wsdl" bindingName="{urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcome:3:rivtabp21}GetECGOutcomeResponderBinding" soapVersion="1_1" anonymous="optional" definition="file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl" id="ef356b21-374e-49b3-8b7a-46d64466bb8e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl"><con:part><con:url>file:/Users/martin/git/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome/GetAggregatedECGOutcome-schemas/src/main/resources/schemas/clinicalProcess_healthcond_description_3.1_RC3/interactions/GetECGOutcomeInteraction/GetECGOutcomeInteraction_3.0_RIVTABP21.wsdl</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements. See the NOTICE file
  distributed with this work for additional information
  regarding copyright ownership. Sveriges Kommuner och Landsting licenses this file
@@ -1921,8 +1921,8 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
 
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="e3be72c3-9b6a-41d9-9c38-a0d3e61caa5f"/><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:itintegration:engagementindex:UpdateResponder:1:Update"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="EI update - 121212121212 - Tolvan Tolvansson" id="42aaa156-9937-4271-a3e5-8a646c84d8f4"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UpdateResponderBinding</con:interface><con:operation>Update</con:operation><con:request name="EI update - 121212121212 - Tolvan Tolvansson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="65b03197-47e8-4325-bd8b-76d46d373786"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  &lt;con:entry key="x-vp-sender-id" value="client"/>
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
+  &lt;con:entry key="x-vp-sender-id" value="client"/>
   &lt;con:entry key="x-vp-instance-id" value="VP_INSTANCE_1"/>
 &lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#ei-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:itintegration:engagementindex:UpdateResponder:1" xmlns:urn2="urn:riv:itintegration:engagementindex:1">
    <soapenv:Header>
@@ -1935,7 +1935,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>121212121212</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-4</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -1949,13 +1949,13 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>121212121212</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-5</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
                <urn2:sourceSystem>HSA-ID-5</urn2:sourceSystem>
                <urn2:dataController>TEST-DATA-CONTROLLER</urn2:dataController>
-               <urn2:mostRecentContent>20140617153000</urn2:mostRecentContent>
+               <urn2:mostRecentContent>20140619153000</urn2:mostRecentContent>
             </urn2:engagement>
          </urn1:engagementTransaction>
          <urn1:engagementTransaction>
@@ -1963,13 +1963,13 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>121212121212</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-6</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
                <urn2:sourceSystem>HSA-ID-6</urn2:sourceSystem>
                <urn2:dataController>TEST-DATA-CONTROLLER</urn2:dataController>
-               <urn2:mostRecentContent>20140617153000</urn2:mostRecentContent>
+               <urn2:mostRecentContent>20140619153000</urn2:mostRecentContent>
             </urn2:engagement>
          </urn1:engagementTransaction>
       </urn1:Update>
@@ -1985,7 +1985,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>194804032094</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-7</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -2007,7 +2007,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>194911172296</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-1</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -2021,7 +2021,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>194911172296</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-2</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -2043,7 +2043,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>198611062384</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-1</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -2057,7 +2057,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>198611062384</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-2</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -2071,7 +2071,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>198611062384</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-3</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -2093,7 +2093,7 @@ https://qa.esb.ntjp.se:443/vp/Update/1/rivtabp21
             <urn2:engagement>
                <urn2:registeredResidentIdentification>192011189228</urn2:registeredResidentIdentification>
                <urn2:serviceDomain>riv:clinicalprocess:healthcond:actoutcome</urn2:serviceDomain>
-               <urn2:categorization>und-kon-ure</urn2:categorization>
+               <urn2:categorization>und-ekg-ure</urn2:categorization>
                <urn2:logicalAddress>HSA-ID-1</urn2:logicalAddress>
                <urn2:businessObjectInstanceIdentifier>NA</urn2:businessObjectInstanceIdentifier>
                <urn2:clinicalProcessInterestId>NA</urn2:clinicalProcessInterestId>
@@ -2110,6 +2110,7 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
 </con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC1: Hämta data från bakomliggande producenter" searchProperties="true" id="35860d47-9058-4498-b5cf-84d7b1607522"><con:settings/><con:testStep type="request" name="GetECGOutcome - 121212121212 - Tolvan Tolvansson" id="89a699fd-bdee-4613-aa6d-d2f25826f83e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 121212121212 - Tolvan Tolvansson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="42855658-d831-40d0-84cf-352e53daabf5"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
+  &lt;con:entry key="x-skltp-correlation-id" value="1234"/>
 &lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
@@ -2127,8 +2128,8 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
       </urn1:GetECGOutcome>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="95584e4e-b618-4150-8188-e02c25aa6636"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="4425e712-0f3f-4858-b655-dde5a1534fe8"/><con:assertion type="XPath Match" name="XPath Match" id="4b072cf2-3985-4475-ab46-00a8e4911193"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="ce1c088f-47ea-408a-b8a5-c85e0f67266f"><con:configuration><path>count(//*:ecgOutcome)</path><content>3</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="GetECGOutcome - 121212121212 - Tolvan Tolvansson Systemaddressering" id="6805ab76-c587-4516-aa10-2535465fe65d"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="GetECGOutcome - 121212121212 - Tolvan Tolvansson Systemaddressering" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="734e9ae7-3f2d-4ba7-b366-d64584a456dc"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  &lt;con:entry key="x-vp-sender-id" value="test"/>
   &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
+  &lt;con:entry key="x-vp-sender-id" value="test"/>
 &lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
@@ -2158,9 +2159,10 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
       </urn1:GetECGOutcome>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="47e4e852-07e8-40a5-9400-5fd5dba91830"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="e43387a8-6d13-4cdf-bdda-55a644d9da48"/><con:assertion type="XPath Match" name="XPath Match" id="eba43845-8649-4917-8afd-a7a6c3c1698d"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="d56e75c2-dad9-451e-91cc-b87c9d44d74d"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC3: Inget svar från ett system, endast engagmenag i ett system" searchProperties="true" id="0d7b97c8-485e-4692-b281-4ad4af209632"><con:settings/><con:testStep type="request" name="194911172296 - Sven Sturesson" id="3a6aac1c-a49d-49ff-8e16-e94bde8e9a16"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>GetECGOutcomeResponderBinding</con:interface><con:operation>GetECGOutcome</con:operation><con:request name="194911172296 - Sven Sturesson" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="38eca172-0ef0-47ff-89b5-582126aebdb6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
   &lt;con:entry key="x-vp-sender-id" value="test"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#TestSuite#agg-env}</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
+  &lt;con:entry key="x-rivta-original-serviceconsumer-hsaid" value="test"/>
+  &lt;con:entry key="x-skltp-correlation-id" value="1234"/>
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://ine-dit-app02.sth.basefarm.net:9020/GetAggregatedECGOutcome/service/v1</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:riv:itintegration:registry:1" xmlns:urn1="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:1" xmlns:urn2="urn:riv:clinicalprocess:healthcond:actoutcome:3">
    <soapenv:Header>
       <urn:LogicalAddress>5565594230</urn:LogicalAddress>
    </soapenv:Header>
@@ -2217,4 +2219,4 @@ https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/
          </urn1:patientId>
       </urn1:GetECGOutcome>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="3bbaaa57-0bb1-4461-beb1-77ab36e3a01a"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="9cb02dfc-caa2-4e4d-be84-ae987fd61329"/><con:assertion type="XPath Match" name="XPath Match" id="6ba06bba-1b0b-4474-ae4b-adea4db7b11c"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="69ef70a0-838b-458e-bc1a-bb15275193b1"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="Simple Contains" name="Contains" id="768f23b6-1afe-447d-b01e-262c00a696f1"><con:configuration><token>VP007 Authorization missing for serviceNamespace</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>agg-env</con:name><con:value>https://qa.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/3/rivtabp21</con:value></con:property></con:properties></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response" id="3bbaaa57-0bb1-4461-beb1-77ab36e3a01a"/><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="9cb02dfc-caa2-4e4d-be84-ae987fd61329"/><con:assertion type="XPath Match" name="XPath Match" id="6ba06bba-1b0b-4474-ae4b-adea4db7b11c"><con:configuration><path>count(//*:ProcessingStatus/*:ProcessingStatusList)</path><content>1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="XPath Match" name="Repsonse" id="69ef70a0-838b-458e-bc1a-bb15275193b1"><con:configuration><path>count(//*:ecgOutcome)</path><content>0</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="Simple Contains" name="Contains" id="768f23b6-1afe-447d-b01e-262c00a696f1"><con:configuration><token>VP007 Authorization missing for serviceNamespace</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:riv:clinicalprocess:healthcond:actoutcome:GetECGOutcomeResponder:3:GetECGOutcome"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>agg-env</con:name><con:value>https://test.esb.ntjp.se/vp/clinicalprocess/healthcond/actoutcome/GetECGOutcome/1/rivtabp21</con:value></con:property></con:properties></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
