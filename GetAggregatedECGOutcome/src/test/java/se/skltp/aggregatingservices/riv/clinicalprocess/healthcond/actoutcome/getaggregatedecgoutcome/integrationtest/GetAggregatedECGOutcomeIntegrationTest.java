@@ -39,7 +39,6 @@ import se.skltp.agp.test.producer.TestProducerLogger;
 
 public class GetAggregatedECGOutcomeIntegrationTest extends AbstractAggregateIntegrationTest {
 
-	@SuppressWarnings("unused")
 	private static final Logger log = LoggerFactory.getLogger(GetAggregatedECGOutcomeIntegrationTest.class);
 
     private static final RecursiveResourceBundle rb = new RecursiveResourceBundle("GetAggregatedECGOutcome-config");
@@ -54,7 +53,8 @@ public class GetAggregatedECGOutcomeIntegrationTest extends AbstractAggregateInt
 		return
 			"soitoolkit-mule-jms-connector-activemq-embedded.xml," +
 	  		"GetAggregatedECGOutcome-common.xml," +
-//          Only load GetAggregatedECGOutcome-common.xml, it will import the other config files since mule-deploy.properties can't load config-files from jar-files on the classpath, e.g. agp-core.jar
+//          Only load GetAggregatedECGOutcome-common.xml, it will import the other config files 
+//	  		since mule-deploy.properties can't load config-files from jar-files on the classpath, e.g. agp-core.jar
 //			"aggregating-services-common.xml," +
 //	        "aggregating-service.xml," +
 			"teststub-services/engagemangsindex-teststub-service.xml," +
@@ -165,6 +165,8 @@ public class GetAggregatedECGOutcomeIntegrationTest extends AbstractAggregateInt
      */
 	private List<ProcessingStatusRecordType> doTest(String registeredResidentId, String senderId, String originalConsumerHsaId, String correlationId, int expectedProcessingStatusSize, ExpectedTestData... testData) {
 
+	    log.debug("doTest {}, {}, {}", new Object[]{registeredResidentId, senderId, originalConsumerHsaId});
+	    
 		// Setup and perform the call to the web service
 		GetAggregatedECGOutcomeTestConsumer consumer = new GetAggregatedECGOutcomeTestConsumer(DEFAULT_SERVICE_ADDRESS, senderId ,originalConsumerHsaId, correlationId);
 		Holder<GetECGOutcomeResponseType> responseHolder = new Holder<GetECGOutcomeResponseType>();
