@@ -16,7 +16,7 @@ public class GetAggregatedECGOutcomeTestProducerDb extends TestProducerDb {
 
 	@Override
 	public Object createResponse(Object... responseItems) {
-		log.debug("Creates a response with {} items", responseItems);
+		log.debug("Create a response with {} items", responseItems.length);
 		GetECGOutcomeResponseType response = new GetECGOutcomeResponseType();
 		for (int i = 0; i < responseItems.length; i++) {
 			response.getEcgOutcome().add((ECGOutcomeType) responseItems[i]);
@@ -27,8 +27,8 @@ public class GetAggregatedECGOutcomeTestProducerDb extends TestProducerDb {
 	@Override
 	public Object createResponseItem(String logicalAddress, String registeredResidentId, String businessObjectId, String time) {
 	
-		log.debug("Created one response item for logical-address {}, registeredResidentId {} and businessObjectId {}", 
-                new Object[] {logicalAddress, registeredResidentId, businessObjectId });
+         log.debug("Created one response item for logical-address {}, registeredResidentId {} and businessObjectId {}", 
+                    new Object[] {logicalAddress, registeredResidentId, businessObjectId });
      
 		 ECGOutcomeType response = new ECGOutcomeType();
 		 
@@ -44,6 +44,5 @@ public class GetAggregatedECGOutcomeTestProducerDb extends TestProducerDb {
 		 ECGOutcomeBodyType ecgOutcomeBody = new ECGOutcomeBodyType();
 		 response.setEcgOutcomeBody(ecgOutcomeBody);
 		 return response;
-
 	}
 }

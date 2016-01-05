@@ -39,7 +39,7 @@ public class GetAggregatedECGOutcomeTestProducer implements GetECGOutcomeRespond
         }
         
         log.info("### Virtual service for GetECGOutcomeType call the source system with logical address: {} and patientId: {}", 
-                logicalAddress, request.getPatientId().getId());
+                  logicalAddress, request.getPatientId().getId());
 
         response = (GetECGOutcomeResponseType)testDb.processRequest(logicalAddress, request.getPatientId().getId());
         if (response == null) {
@@ -48,7 +48,7 @@ public class GetAggregatedECGOutcomeTestProducer implements GetECGOutcomeRespond
         }
 
         log.info("### Virtual service got {} bookings in the reply from the source system with logical address: {} and patientId: {}", 
-                new Object[] {response.getEcgOutcome().size(), logicalAddress, request.getPatientId().getId()});
+                  new Object[] {response.getEcgOutcome().size(), logicalAddress, request.getPatientId().getId()});
 
         return response;
 	}

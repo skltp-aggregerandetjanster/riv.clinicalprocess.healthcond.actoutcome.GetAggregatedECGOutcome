@@ -11,16 +11,13 @@ import org.slf4j.LoggerFactory;
 
 public class GetAggregatedECGOutcomeMuleServer {
 
-
-	public static final String MULE_SERVER_ID   = "GetAggregatedECGOutcome";
- 
+	public static final String MULE_SERVER_ID = "GetAggregatedECGOutcome";
 
 	private static final Logger logger = LoggerFactory.getLogger(GetAggregatedECGOutcomeMuleServer.class);
     private static final RecursiveResourceBundle rb = new RecursiveResourceBundle("GetAggregatedECGOutcome-config");
 
 	public static void main(String[] args) throws Exception {
 	
- 
         // Configure the mule-server:
         //
         // Arg #1: The name of the Mule Server
@@ -44,11 +41,8 @@ public class GetAggregatedECGOutcomeMuleServer {
      * @return
      */
     public static String getAddress(String serviceUrlPropertyName) {
-
         String url = rb.getString(serviceUrlPropertyName);
-
 	    logger.info("URL: {}", url);
     	return url;
- 
     }	
 }
