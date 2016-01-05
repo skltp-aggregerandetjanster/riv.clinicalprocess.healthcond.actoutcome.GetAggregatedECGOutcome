@@ -15,8 +15,8 @@
 			RollingFileAppender. Should not break scripts used for archiving. -->
 <!--			
 		<RollingRandomAccessFile name="RollingRandomAccessFile"
-				fileName="${log.dir}/mule-app-GetAggregatedAlertInformation.log"
-				filePattern="${log.dir}/mule-app-GetAggregatedAlertInformation.log.%i">
+				fileName="${log.dir}/mule-app-GetAggregatedECGOutcome.log"
+				filePattern="${log.dir}/mule-app-GetAggregatedECGOutome.log.%i">
 			<PatternLayout>
 				<Pattern>%d %-5p [%t] %-30c - %m%n</Pattern>
 			</PatternLayout>
