@@ -92,4 +92,5 @@ mvn gatling:execute -PPatients -DbaseUrl=http://ine-sit-app03.sth.basefarm.net:9
         <simulationClass>se.skltp.aggregatingservices.riv.clinicalprocess.healthcond.actoutcome.getaggregatedecgoutcome.TPPatients</simulationClass>
       </properties>
     </profile>
+  </profiles>
 </project>
