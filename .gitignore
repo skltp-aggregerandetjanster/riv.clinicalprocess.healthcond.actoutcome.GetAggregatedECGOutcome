@@ -7,3 +7,8 @@ GetAggregatedECGOutcome/target
 GetAggregatedECGOutcome-schemas/target
 target
 *.
+/.project
+/GetAggregatedECGOutcome-schemas/.classpath
+.project
+.classpath
+.settings
