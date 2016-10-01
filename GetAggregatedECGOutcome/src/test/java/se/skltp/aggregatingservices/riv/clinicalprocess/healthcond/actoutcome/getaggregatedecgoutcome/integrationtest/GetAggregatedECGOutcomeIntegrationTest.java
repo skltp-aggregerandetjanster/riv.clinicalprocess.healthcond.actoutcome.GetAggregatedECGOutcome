@@ -22,6 +22,7 @@ import java.util.List;
 import javax.xml.ws.Holder;
 import javax.xml.ws.soap.SOAPFaultException;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,6 +30,7 @@ import org.soitoolkit.commons.mule.util.RecursiveResourceBundle;
 
 import riv.clinicalprocess.healthcond.actoutcome.getecgoutcomeresponder.v1.GetECGOutcomeResponseType;
 import riv.clinicalprocess.healthcond.actoutcome.v3.ECGOutcomeType;
+import se.skltp.agp.cache.TakCacheBean;
 import se.skltp.aggregatingservices.riv.clinicalprocess.healthcond.actoutcome.getaggregatedecgoutcome.GetAggregatedECGOutcomeMuleServer;
 import se.skltp.agp.riv.interoperability.headers.v1.ProcessingStatusRecordType;
 import se.skltp.agp.riv.interoperability.headers.v1.ProcessingStatusType;
@@ -49,6 +51,12 @@ public class GetAggregatedECGOutcomeIntegrationTest extends AbstractAggregateInt
 	private static final String EXPECTED_ERR_INVALID_ID_MSG = "Invalid Id: " + TEST_RR_ID_FAULT_INVALID_ID;
 	private static final String DEFAULT_SERVICE_ADDRESS = GetAggregatedECGOutcomeMuleServer.getAddress("SERVICE_INBOUND_URL");
 
+	@Before
+    public void loadTakCache() throws Exception {
+    	final TakCacheBean takCache = (TakCacheBean) muleContext.getRegistry().lookupObject("takCacheBean");
+    	takCache.updateCache();
+    }
+ 
 	protected String getConfigResources() {
 		return
 			"soitoolkit-mule-jms-connector-activemq-embedded.xml," +
@@ -58,7 +66,8 @@ public class GetAggregatedECGOutcomeIntegrationTest extends AbstractAggregateInt
 //			"aggregating-services-common.xml," +
 //	        "aggregating-service.xml," +
 			"teststub-services/engagemangsindex-teststub-service.xml," +
-			"teststub-services/service-producer-teststub-service.xml";
+			"teststub-services/service-producer-teststub-service.xml," +
+            "teststub-non-default-services/tak-teststub-service.xml";
     }
 
 	/**
