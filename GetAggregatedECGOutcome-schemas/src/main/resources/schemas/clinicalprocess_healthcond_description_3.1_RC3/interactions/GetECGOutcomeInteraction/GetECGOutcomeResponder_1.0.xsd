@@ -30,7 +30,7 @@
         schemaLocation="../../core_components/clinicalprocess_healthcond_actoutcome_enum_3.1.xsd"
         namespace="urn:riv:clinicalprocess:healthcond:actoutcome:enums:3"/>
 
-    <xs:element name="GetECGOutcome" type="tns:GetECGOutcomeType"
+    <xs:element name="GetECGOutcome" type="tns:GetECGOutcomeType"/>
     <xs:element name="GetECGOutcomeResponse" type="tns:GetECGOutcomeResponseType"/>
 
     <xs:complexType name="GetECGOutcomeType">
