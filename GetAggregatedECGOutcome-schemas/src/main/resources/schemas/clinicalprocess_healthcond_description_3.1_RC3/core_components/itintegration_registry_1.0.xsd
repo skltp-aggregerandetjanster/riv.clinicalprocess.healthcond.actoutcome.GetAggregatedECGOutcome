@@ -40,7 +40,7 @@
 		</xs:annotation>
 		<xs:sequence>
 			<xs:element name='ServiceContractNamespace' type='xs:anyURI' />
-			<xs:any namespace='##other' processContents='lax' minOccurs='0' maxOccurs='unbounded'
+			<xs:any namespace='##other' processContents='lax' minOccurs='0' maxOccurs='unbounded' />
 		</xs:sequence>
 	</xs:complexType>
 	

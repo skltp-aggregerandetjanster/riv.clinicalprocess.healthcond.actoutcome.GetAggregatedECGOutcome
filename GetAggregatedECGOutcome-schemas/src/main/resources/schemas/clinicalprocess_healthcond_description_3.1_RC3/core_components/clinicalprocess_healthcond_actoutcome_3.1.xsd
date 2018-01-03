@@ -112,7 +112,7 @@
             <xs:element name="informationOwner" type="tns:InformationOwnerType" minOccurs="1"/>
             <xs:element name="performerRole" type="tns:PerformerRoleType" minOccurs="1"
                 maxOccurs="1"/>
-            <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"
         </xs:sequence>
     </xs:complexType>
 
