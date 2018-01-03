@@ -30,7 +30,7 @@
             <xs:sequence>
                 <xs:element name="attestedTime" type="m1:TimeStampType"/>
                 <xs:element name="attesterHSAId" type="m1:HSAIdType"/>
-                <xs:element name="attesterName" type="xs:string" minOccurs="0"
+                <xs:element name="attesterName" type="xs:string" minOccurs="0"/>
                 <xs:any namespace="##other" processContents="lax" minOccurs="0"
                     maxOccurs="unbounded"/>
             </xs:sequence>
