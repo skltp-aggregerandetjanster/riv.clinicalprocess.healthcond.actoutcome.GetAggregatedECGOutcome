@@ -29,6 +29,8 @@
     <xs:import
         schemaLocation="../../core_components/clinicalprocess_healthcond_actoutcome_enum_3.1.xsd"
         namespace="urn:riv:clinicalprocess:healthcond:actoutcome:enums:3"/>
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" 
+               schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 
     <xs:element name="GetECGOutcome" type="tns:GetECGOutcomeType"/>
     <xs:element name="GetECGOutcomeResponse" type="tns:GetECGOutcomeResponseType"/>
