@@ -18,7 +18,7 @@ DON'T CHANGE THE CONTENT OF THIS COMMENT UNLESS YOU REALLY KNOW WHAT YOU ARE DOI
 
   <groupId>se.skltp.aggregatingservices.riv.clinicalprocess.healthcond.actoutcome</groupId>
   <artifactId>GetAggregatedECGOutcome-parent</artifactId>
-  <version>1.2.2-SNAPSHOT</version>
+  <version>1.2.2-RC1</version>
   <packaging>pom</packaging>
   <name>GetAggregatedECGOutcome-parent</name>
 
@@ -33,7 +33,7 @@ DON'T CHANGE THE CONTENT OF THIS COMMENT UNLESS YOU REALLY KNOW WHAT YOU ARE DOI
     <connection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome.git</connection>
     <developerConnection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome.git</developerConnection>
     <url>https://github.com/skltp-aggregerandetjanster/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome.git</url>
-    <tag>HEAD</tag>
+    <tag>v1.2.2-RC1</tag>
   </scm>
 
   <modules>
