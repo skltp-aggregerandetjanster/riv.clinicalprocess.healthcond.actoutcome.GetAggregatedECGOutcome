@@ -11,7 +11,7 @@
 
   	<groupId>se.skltp.aggregatingservices.riv.clinicalprocess.healthcond.actoutcome</groupId>
 		<artifactId>GetAggregatedECGOutcome-v1</artifactId>
-		<version>2.0.0</version>
+		<version>2.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>GetAggregatedECGOutcome-v1</name>
 
@@ -24,7 +24,7 @@
       <connection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome.git</connection>
       <developerConnection>scm:git:https://github.com:443/skltp-aggregerandetjanster/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome.git</developerConnection>
       <url>https://github.com/skltp-aggregerandetjanster/riv.clinicalprocess.healthcond.actoutcome.GetAggregatedECGOutcome.git</url>
-      <tag>GetAggregatedECGOutcome-v1-2.0.0</tag>
+      <tag>HEAD</tag>
   	</scm>
 
   <modules>  <module>GetAggregatedECGOutcome-v1-schemas</module>
