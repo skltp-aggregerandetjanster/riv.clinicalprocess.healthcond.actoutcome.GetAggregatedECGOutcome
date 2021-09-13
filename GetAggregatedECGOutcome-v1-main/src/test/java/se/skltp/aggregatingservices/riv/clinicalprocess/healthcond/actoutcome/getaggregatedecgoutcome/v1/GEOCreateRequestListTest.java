@@ -1,15 +1,15 @@
 package se.skltp.aggregatingservices.riv.clinicalprocess.healthcond.actoutcome.getaggregatedecgoutcome.v1;
 
-import org.junit.BeforeClass;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.junit.jupiter.api.BeforeAll;
 import riv.clinicalprocess.healthcond.actoutcome.getecgoutcomeresponder.v1.GetECGOutcomeResponseType;
 import se.skltp.aggregatingservices.api.AgpServiceFactory;
 import se.skltp.aggregatingservices.tests.CreateFindContentTest;
 import se.skltp.aggregatingservices.data.TestDataGenerator;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+@ExtendWith(SpringExtension.class)
 public class GEOCreateRequestListTest extends CreateFindContentTest {
 
   private static GEOAgpServiceConfiguration configuration = new GEOAgpServiceConfiguration();
@@ -21,7 +21,7 @@ public class GEOCreateRequestListTest extends CreateFindContentTest {
     super(testDataGenerator, agpServiceFactory, configuration);
   }
 
-  @BeforeClass
+  @BeforeAll
   public static void before() {
     configuration = new GEOAgpServiceConfiguration();
     agpServiceFactory = new GEOAgpServiceFactoryImpl();
